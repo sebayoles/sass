@@ -1,0 +1,20 @@
+header .fondo-nav {
+  background-color: #ffffff; }
+
+header .fondo-principal {
+  background-image: url(../img/man.jpg);
+  padding: 10rem;
+  background-repeat: no-repeat;
+  background-position: cover;
+  color: #ffffff; }
+
+header .hover:hover {
+  transform: scale(1);
+  transition: all 500ms ease; }
+
+@media (max-width: 960px) {
+  .navbar-collapse {
+    height: 100vh; }
+  .navbar {
+    opacity: 0.8;
+    color: #ffffff; } }

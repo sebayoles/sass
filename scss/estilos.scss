@@ -1,0 +1,27 @@
+$color-oscuro: #000000;
+$color-claro: #ffffff;
+    
+
+header{
+    
+    .fondo-nav{
+        background-color: $color-claro;
+    }
+    
+    .fondo-principal{
+        background-image: url(../img/man.jpg);
+        padding: 10rem;
+        background-repeat: no-repeat;
+        background-position: cover;
+        color: $color-claro;
+    }
+
+    .hover{
+        &:hover{
+            transform: scale(1);
+            transition: all 500ms ease;
+        }
+
+    }
+}
+@import "media";
